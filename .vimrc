@@ -8,7 +8,7 @@ set encoding=utf-8
 	set list
 	set listchars+=tab:>~,trail:.
 	set tabstop=4
-
+set autoshelldir
 
 nnoremap ::  q:iredir @a \|    \|  redir END \|  put a     <ESC>0f\| 
 
